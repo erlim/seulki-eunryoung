@@ -315,7 +315,7 @@ h1, h2, h3, h4, h5, h6 {
 .qbootstrap-cover,
 .qbootstrap-hero {
   position: relative;
-  height: 650px;
+  height: 600px;
   width: 100%;
 }
 @media screen and (max-width: 768px) {
@@ -351,7 +351,7 @@ h1, h2, h3, h4, h5, h6 {
 .qbootstrap-cover .display-t,
 .video-hero .display-t {
   display: table;
-  height: 650px;
+  height: 600px;
   width: 100%;
   position: relative;
   z-index: 2;
