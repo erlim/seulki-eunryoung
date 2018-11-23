@@ -410,10 +410,10 @@ h1, h2, h3, h4, h5, h6 {
 .qbootstrap-cover,
 .qbootstrap-hero {
 	position: relative;
-	height: 600px;
+	height: 800px;
 	width: 100%;
 	@media screen and (max-width :$screen-sm) {
-		height: 500px;
+		height: 700px;
 	}
 }
 .qbootstrap-overlay{
@@ -437,12 +437,12 @@ h1, h2, h3, h4, h5, h6 {
 	}
 	.display-t{
 		display: table;
-		height: 600px;
+		height: 800px;
 		width: 100%;
 		position: relative;
 		z-index: 2;
 		@media screen and (max-width :$screen-sm) {
-			height: 500px;
+			height: 600px;
 		}
 	}
 	.display-tc{
