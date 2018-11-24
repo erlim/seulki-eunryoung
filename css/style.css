@@ -680,8 +680,8 @@ h1, h2, h3, h4, h5, h6 {
   color: rgba(255, 255, 255, 0.7);
 }
 #qbootstrap-countdown .section-heading.svg-sm .svg {
-  height: 180px;
-  margin-bottom: -50px;
+  height: 80px;
+  margin-bottom: -100px;
   padding: 0;
 }
 #qbootstrap-countdown .section-heading.colored .svg {
