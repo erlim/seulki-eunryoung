@@ -23,6 +23,8 @@ body {
   background: #fff;
   height: 100%;
   position: relative;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 a {
