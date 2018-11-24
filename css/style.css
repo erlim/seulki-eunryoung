@@ -41,8 +41,9 @@ a:hover, a:active, a:focus {
 
 p {
   margin-bottom: 1.5em;
-  font-family: 'Jeju Myeongjo', serif;;
+  font-family: 'helvetica';
 }
+/* 'helvetica' 'Jeju Myeongjo', serif; */
 
 h1, h2, h3, h4, h5, h6 {
   color: #ffffff;
