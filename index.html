@@ -2,7 +2,7 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" style="overflow-x:hidden;"> <!--<![endif]-->
 <head>
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-58535575-3"></script>
@@ -72,7 +72,7 @@
 	<![endif]-->
 
 </head>
-<body style="overflow: auto; overflow-x:hidden;">
+<body style="overflow-x:hidden;">
 
 <div class="qbootstrap-hero" data-section="home">
 	<div class="qbootstrap-overlay"></div>
@@ -148,9 +148,14 @@
 		</div>
 	</div>
 
+</br>
+<div class="row animate-box">
+	<div style="height: auto; width: 100%; margin: auto; border-top:0.7px solid rgba(82, 81, 81, 0.1);">
+		<p></p>
+	</div>
+</div>
 
 <div class="row animate-box">
-	<div style="height: auto; width: 100%; margin: auto; border-top:0.7px solid rgba(82, 81, 81, 0.1);"></div>
 	<div style="height: auto; width: 80%; margin: auto; border-top:0px;">
 		<p style="font-size: 18px; margin-bottom: 20px; color: rgba(0, 0, 0, 0.8)">
 			<br/>| 사진 구경
@@ -236,26 +241,26 @@
 			<div class="row animate-box">
 				<div class="col-md-12 section-heading text-center svg-sm colored">
 					<p style="text-align: center; font-size: 16px;">
-					<span class="datewed" style="color: rgba(0,0,0,0.8)">우리가 만나기까지..</span>
+					<span class="datewed">우리가 만나기까지..</span>
 					</p>
 				</div>
 			</div>
 			<div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2 text-center;">
 					<p class="countdown" style="text-align: center; font-size: 16px">
-						<span id="days" style="color: rgba(0,0,0,0.8)">
+						<span id="days" >
 							10
 							<small>days</small>
 						</span>
-					<span id="hours" style="color: rgba(0, 0, 0, 0.8)">
+					<span id="hours">
 							10
 							<small>hours</small>
 						</span>
-					<span id="minutes" style="color: rgba(0, 0, 0, 0.8)">
+					<span id="minutes">
 							10
 							<small>minutes</small>
 						</span>
-					<span id="seconds" style="color: rgba(0, 0, 0, 0.8)">
+					<span id="seconds">
 							10
 							<small>seconds</small>
 						</span>
@@ -302,7 +307,7 @@
 <script>
   var container = document.getElementById('map');
   var options = {
-    center: new daum.maps.LatLng(37.517435, 127.022943),
+    center: new daum.maps.LatLng(37.516705, 127.022691),
     level: 4
   };
 
